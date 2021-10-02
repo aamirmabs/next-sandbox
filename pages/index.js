@@ -1,7 +1,5 @@
 // served when you try to reach domain.com/
 
-import React from "react";
-
 function HomePage() {
   return (
     <div>
