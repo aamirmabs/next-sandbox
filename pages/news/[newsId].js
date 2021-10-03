@@ -12,7 +12,7 @@ function DetailPage() {
 
   return (
     <div>
-      <h1>News Item Page</h1>
+      <h1>{newsId} Page</h1>
       <p>Requested ID: {newsId}</p>
     </div>
   );
