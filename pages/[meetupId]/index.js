@@ -2,13 +2,11 @@
 
 import { Fragment } from "react";
 
-import Layout from "../../components/layout/Layout";
-
 function MeetupId() {
   return (
-    <Layout>
+    <Fragment>
       <h1>Meetup ID</h1>
-    </Layout>
+    </Fragment>
   );
 }
 

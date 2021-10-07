@@ -2,7 +2,6 @@
 
 import { Fragment } from "react";
 
-import Layout from "../../components/layout/Layout";
 import NewMeetupForm from "../../components/meetups/NewMeetupForm";
 
 function NewMeetupPage() {
@@ -11,10 +10,10 @@ function NewMeetupPage() {
   }
 
   return (
-    <Layout>
+    <Fragment>
       <h1>New Meetup</h1>
       <NewMeetupForm onAddMeetup={addMeetupHandler} />
-    </Layout>
+    </Fragment>
   );
 }
 

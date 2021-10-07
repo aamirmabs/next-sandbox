@@ -1,6 +1,7 @@
 // opened on domain.com/
 
-import Layout from "../components/layout/Layout";
+import { Fragment } from "react";
+
 import MeetupList from "../components/meetups/MeetupList";
 
 const DUMMY_MEETUPS = [
@@ -48,10 +49,10 @@ const DUMMY_MEETUPS = [
 
 function HomePage() {
   return (
-    <Layout>
+    <Fragment>
       <h1>HomePage</h1>
       <MeetupList meetups={DUMMY_MEETUPS} />
-    </Layout>
+    </Fragment>
   );
 }
 
